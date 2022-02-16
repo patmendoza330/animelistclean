@@ -2,7 +2,7 @@
 
 # Cleaning MyAnimeList data for Google Data Analytics Capstone
 
-In the previous script I had downloaded all of the data that I wanted to
+In the [previous](https://github.com/patmendoza330/animelistextract) script I had downloaded all of the data that I wanted to
 use for my capstone project. Now I need to explore and clean all of it.
 
 ## First things first - setting some variables
@@ -34,7 +34,7 @@ library(janitor)
 
 ## Load in the data
 
-[Previously](link), we had downloaded and made transformations to data
+[Previously](https://github.com/patmendoza330/animelistextract), we had downloaded and made transformations to data
 from the MyAnimeList API. Now we’re going to load that data into R for
 further analysis and cleaning.
 
@@ -1592,4 +1592,4 @@ exportFile(paste0("tm_ky",".csv"),tm_ky)
 
 At this point, all of the files have been written/appended to the
 tables. Now they must be uploaded to the Tableau Public server and
-Kaggle.com
+Kaggle.com [here](https://www.kaggle.com/patmendoza/myanimelist-api)
